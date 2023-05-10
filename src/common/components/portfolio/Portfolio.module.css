@@ -4,7 +4,7 @@
 
 .portfolio__gallery {
     display: flex;
-    padding: calc(var(--index) * 7) 0;
+    padding: 1vw 0;
 }
 
 .portfolio__gallery > * {

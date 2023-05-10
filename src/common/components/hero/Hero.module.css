@@ -1,18 +1,19 @@
 .hero {}
 
-.hero-image {
+.hero__image {
     width: 40vw;
     max-width: 750px;
     left: 40vw;
     position: absolute;
     top: 8vh;
+    z-index: -1;
 }
 
-.main-header {
+.main__header {
     height: 100vh;
 }
 
-.main-title {
+.main__title {
     font-size: calc(40px + (220 - 40) * (100vw - 320px) / (1920 - 320));
     position: absolute;
     width: min-content;

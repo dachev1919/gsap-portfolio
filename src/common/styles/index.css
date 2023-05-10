@@ -10,7 +10,8 @@
 :root {
     --index: calc(1vw + 1vh);
     --header-color: #f4efec;
-    --header-text: #cdc6c3;
+    --text-color: #cdc6c3;
+    --gallery-gap: calc(var(--index) * 10)
 }
 
 body {
@@ -23,6 +24,11 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Outfit', sans-serif;
+}
+
+/* will-change */
+.content, .portfolio__will-change {
+    will-change: transform;
 }
 
 .container {

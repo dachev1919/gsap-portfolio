@@ -11,19 +11,19 @@ const Portfolio = () => {
     <div className={styles.portfolio}>
       <div className="container">
         <div className={styles['portfolio__gallery']}>
-          <div className={styles['portfolio__gallery-left']}>
-            <img className={styles['portfolio__gallery-item']} src={work1} alt="work-1"/>
-            <img className={styles['portfolio__gallery-item']} src={work2} alt="work-2"/>
+          <div data-speed='.8' className={`${styles['portfolio__gallery-left']} portfolio__will-change portfolio__gallery-left`}>
+            <img className={`${styles['portfolio__gallery-item']} portfolio__gallery-item`} src={work1} alt="work-1"/>
+            <img className={`${styles['portfolio__gallery-item']} portfolio__gallery-item`} src={work2} alt="work-2"/>
 
-            <div className={`${styles['portfolio__text-block']} ${styles['portfolio__gallery-item']}`}>
+            <div className={`${styles['portfolio__text-block']} ${styles['portfolio__gallery-item']} portfolio__gallery-item`}>
               <h2 className={styles['portfolio__text-block_h']}>Creative floating scroll with amazing parallax effect</h2>
               <p className={styles['portfolio__text-block_p']}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis laudantium obcaecati pariatur quidem suscipit.</p>
             </div>
 
-            <img className={styles['portfolio__gallery-item']} src={work6} alt="work-6"/>
+            <img className={`${styles['portfolio__gallery-item']} portfolio__gallery-item`} src={work6} alt="work-6"/>
           </div>
 
-          <div className={styles['portfolio__gallery-right']}>
+          <div data-speed='1.1' className={`${styles['portfolio__gallery-right']} portfolio__will-change portfolio__gallery-right`}>
             <img className={styles['portfolio__gallery-item']} src={work3} alt="work-3"/>
 
             <div className={`${styles['portfolio__text-block']} ${styles['portfolio__gallery-item']}`}>
