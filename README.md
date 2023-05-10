@@ -1,3 +1,3 @@
-# Getting Started with Create React App
+# Introduction to the gsap library
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+[Live Result](https://dachev1919.github.io/gsap-portfolio/)

@@ -1,7 +1,10 @@
+import Hero from "./common/components/hero/Hero";
+
 function App() {
   return (
-    <div className="App">
-    </div>
+    <>
+      <Hero />
+    </>
   );
 }
 

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --index: calc(1vw + 1vh);
+    --header-color: #f4efec;
+    --header-text: #cdc6c3;
+}
+
+body {
+    background-image: url("../assets/images/bg.jpg");
+    background-size: 40px;
+    color: #fafafa;
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    padding: 0 7vw;
+}
