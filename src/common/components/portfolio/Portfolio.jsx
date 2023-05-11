@@ -24,15 +24,15 @@ const Portfolio = () => {
           </div>
 
           <div data-speed='1.1' className={`${styles['portfolio__gallery-right']} portfolio__will-change portfolio__gallery-right`}>
-            <img className={styles['portfolio__gallery-item']} src={work3} alt="work-3"/>
+            <img className={`${styles['portfolio__gallery-item']} portfolio__gallery-item`} src={work3} alt="work-3"/>
 
-            <div className={`${styles['portfolio__text-block']} ${styles['portfolio__gallery-item']}`}>
+            <div className={`${styles['portfolio__text-block']} ${styles['portfolio__gallery-item']} portfolio__gallery-item`}>
               <h2 className={styles['portfolio__text-block_h']}>Creative floating scroll with amazing parallax effect</h2>
               <p className={styles['portfolio__text-block_p']}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis laudantium obcaecati pariatur quidem suscipit.</p>
             </div>
 
-            <img className={styles['portfolio__gallery-item']} src={work4} alt="work-4"/>
-            <img className={styles['portfolio__gallery-item']} src={work5} alt="work-5"/>
+            <img className={`${styles['portfolio__gallery-item']} portfolio__gallery-item`} src={work4} alt="work-4"/>
+            <img className={`${styles['portfolio__gallery-item']} portfolio__gallery-item`} src={work5} alt="work-5"/>
           </div>
         </div>
       </div>

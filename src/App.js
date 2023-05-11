@@ -46,6 +46,23 @@ function App() {
             }
           }
         )
+      });
+
+      let itemsRight = gsap.utils.toArray('.portfolio__gallery-right .portfolio__gallery-item');
+
+      itemsRight.forEach(item => {
+        gsap.fromTo(
+          item,
+          {x: 150, opacity: 0},
+          {
+            x: 0,
+            opacity: 1,
+            scrollTrigger: {
+              trigger: item,
+              scrub: true
+            }
+          }
+        )
       })
     }
   });
